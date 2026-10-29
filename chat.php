@@ -24,7 +24,7 @@ if (file_exists("chat.txt")) {
     <title>Simple PHP Chat</title>
 </head>
 <body>
-    <h2>LAN Chat Room</h2>
+    <h2>Chat Room</h2>
 
     <!-- Textarea displays the chat log fetched during the GET request -->
     <textarea rows="15" cols="50" readonly><?php echo $chat_content; ?></textarea>
